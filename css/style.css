@@ -1,0 +1,127 @@
+/*
+teste do google fonts
+
+body{
+     font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*/
+* {
+  margin: 0; /*remove a margem padrão de todos os elementos */
+  padding: 0; /*remove o preenchimento padrão de todos os elementos */
+  box-sizing: border-box; /*inclui a borda e o preenchimento no cálculo da largura e altura */
+}
+
+body {
+  background-color: #F9F9F9; /*define a cor de fundo do body como cinza claro */
+  font-family: 'Work Sans', sans-serif; /*define a fonte do body como Work Sans */
+}
+
+main {
+  width: 100%; /*largura de 100% */
+  max-width: 700px; /*largura máxima de 700px */
+  margin: 0 auto; /*margem automática para centralizar, 0 acima e abaixo */
+}
+
+header {
+  text-align: center; /*centraliza o conteúdo do header */
+  margin-bottom: 20px; /*margem de 20px abaixo do header */
+}
+
+img {
+  width: 100px; /*define a largura da imagem como 100px */
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif; /*define a fonte do h1 como Fira Sans */
+}
+
+form {
+  background-color: #FFFFFF; /*define a cor de fundo do formulário como branca */
+  padding: 15px; /*define o preenchimento do formulário como 15px */
+  border-radius: 5px; /*define o raio da borda do formulário como 5px */
+  margin-bottom: 20px; /*margem de 20px abaixo do formulário */
+  
+}
+
+fieldset {
+  padding: 15px; /*define o preenchimento do fieldset como 15px */  
+  border: 1px solid #CCCCCC; /*define a espessura da borda do fieldset e como sólida e cinza */
+  border-radius: 5px;
+  margin-bottom: 15px; /*margem de 15px abaixo do fieldset */
+}
+
+legend {
+  font-weight: bold; /*define a fonte do legend como negrito */
+  font-size: 18px; /*define o tamanho da fonte do legend como 18px */
+  padding: 0 5px; /*define o preenchimento do legend como 0 acima e abaixo e 5px à esquerda e à direita */
+}
+
+label {
+  display: inline-block; /*define o display do label como inline-block */ 
+  margin-bottom: 5px; /*define a margem abaixo do label como 5px */
+}
+
+p {
+  margin-bottom: 15px; /*margem de 15px abaixo do parágrafo (texto para alguns inputs) */
+  font-weight: bold;
+}
+
+input, select, textarea {
+  border: 1px solid #ccc; /*define a espessura da borda do input, select e textarea como 1px, sólida e cinza */
+  border-radius: 2.5px; /*define o raio da borda do input, select e textarea como 2.5px */
+}
+
+textarea {
+  min-height: 100px; /*define a altura mínima do textarea como 100px */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto; /*define a largura do input radio e checkbox como automática */
+}
+
+input[type="color"] {
+  width: 40px; 
+  padding: 0 5px; /*define o preenchimento do input color como 0 acima e abaixo e 5px à esquerda e à direita  pois com as configurações anteriores */
+}
+
+input:invalid, /*aplica a cor da borda vermelha para inputs, selects e textareas inválidos */
+select:invalid, 
+textarea:invalid  {
+  border-color: red;
+}
+
+input:valid, /*aplica a cor da borda verde para inputs, selects e textareas válidos */
+select:valid, 
+textarea:valid  {
+  border-color: green;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer; /*define o cursor como pointer para indicar que é clicável */
+}
+
+button:hover {
+  background-color: green; /* Para o botão de Enviar */
+  color: white;
+}
+
+button[type="reset"]:hover {
+  background-color: orangered; /* Para o botão de Limpar */
+  color: white;
+}
