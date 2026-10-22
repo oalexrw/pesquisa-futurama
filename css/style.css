@@ -49,6 +49,8 @@ form {
   background-color: #FFFFFF; /*define a cor de fundo do formulário como branca */
   padding: 15px; /*define o preenchimento do formulário como 15px */
   border-radius: 5px; /*define o raio da borda do formulário como 5px */
+  margin-bottom: 20px; /*margem de 20px abaixo do formulário */
+  
 }
 
 fieldset {
@@ -69,6 +71,11 @@ label {
   margin-bottom: 5px; /*define a margem abaixo do label como 5px */
 }
 
+p {
+  margin-bottom: 15px; /*margem de 15px abaixo do parágrafo (texto para alguns inputs) */
+  font-weight: bold;
+}
+
 input, select, textarea {
   border: 1px solid #ccc; /*define a espessura da borda do input, select e textarea como 1px, sólida e cinza */
   border-radius: 2.5px; /*define o raio da borda do input, select e textarea como 2.5px */
@@ -86,4 +93,35 @@ input[type="checkbox"] {
 input[type="color"] {
   width: 40px; 
   padding: 0 5px; /*define o preenchimento do input color como 0 acima e abaixo e 5px à esquerda e à direita  pois com as configurações anteriores */
+}
+
+input:invalid, /*aplica a cor da borda vermelha para inputs, selects e textareas inválidos */
+select:invalid, 
+textarea:invalid  {
+  border-color: red;
+}
+
+input:valid, /*aplica a cor da borda verde para inputs, selects e textareas válidos */
+select:valid, 
+textarea:valid  {
+  border-color: green;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer; /*define o cursor como pointer para indicar que é clicável */
+}
+
+button:hover {
+  background-color: green; /* Para o botão de Enviar */
+  color: white;
+}
+
+button[type="reset"]:hover {
+  background-color: orangered; /* Para o botão de Limpar */
+  color: white;
 }
