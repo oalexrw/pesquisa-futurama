@@ -15,4 +15,52 @@ h1{
 }
 
 */
+* {
+  margin: 0; /*remove a margem padrão de todos os elementos */
+  padding: 0; /*remove o preenchimento padrão de todos os elementos */
+  box-sizing: border-box; /*inclui a borda e o preenchimento no cálculo da largura e altura */
+}
+
+body {
+  background-color: #F9F9F9; /*define a cor de fundo do body como cinza claro */
+  font-family: 'Work Sans', sans-serif; /*define a fonte do body como Work Sans */
+}
+
+main {
+  width: 100%; /*largura de 100% */
+  max-width: 700px; /*largura máxima de 700px */
+  margin: 0 auto; /*margem automática para centralizar, 0 acima e abaixo */
+}
+
+header {
+  text-align: center; /*centraliza o conteúdo do header */
+  margin-bottom: 20px; /*margem de 20px abaixo do header */
+}
+
+img {
+  width: 100px; /*define a largura da imagem como 100px */
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif; /*define a fonte do h1 como Fira Sans */
+}
+
+form {
+  background-color: #FFFFFF; /*define a cor de fundo do formulário como branca */
+  padding: 15px; /*define o preenchimento do formulário como 15px */
+  border-radius: 5px; /*define o raio da borda do formulário como 5px */
+}
+
+fieldset {
+  padding: 15px; /*define o preenchimento do fieldset como 15px */  
+  border: 1px solid #CCCCCC; /*define a espessura da borda do fieldset e como sólida e cinza */
+  border-radius: 5px;
+  margin-bottom: 15px; /*margem de 15px abaixo do fieldset */
+}
+
+legend {
+  font-weight: bold; /*define a fonte do legend como negrito */
+  font-size: 18px; /*define o tamanho da fonte do legend como 18px */
+  padding: 0 5px; /*define o preenchimento do legend como 0 acima e abaixo e 5px à esquerda e à direita */
+}
 
