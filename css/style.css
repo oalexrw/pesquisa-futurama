@@ -64,3 +64,26 @@ legend {
   padding: 0 5px; /*define o preenchimento do legend como 0 acima e abaixo e 5px à esquerda e à direita */
 }
 
+label {
+  display: inline-block; /*define o display do label como inline-block */ 
+  margin-bottom: 5px; /*define a margem abaixo do label como 5px */
+}
+
+input, select, textarea {
+  border: 1px solid #ccc; /*define a espessura da borda do input, select e textarea como 1px, sólida e cinza */
+  border-radius: 2.5px; /*define o raio da borda do input, select e textarea como 2.5px */
+}
+
+textarea {
+  min-height: 100px; /*define a altura mínima do textarea como 100px */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto; /*define a largura do input radio e checkbox como automática */
+}
+
+input[type="color"] {
+  width: 40px; 
+  padding: 0 5px; /*define o preenchimento do input color como 0 acima e abaixo e 5px à esquerda e à direita  pois com as configurações anteriores */
+}
